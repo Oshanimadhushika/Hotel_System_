@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="DashBoardReseptionContext" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardReseptionController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3d6d9999" height="35.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="344.0" fitWidth="512.0" layoutX="85.0" layoutY="50.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/croissant-boiled-egg-orange-juice-yogurt-breakfast-tray-bed-hotel-room.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="50.0" prefHeight="344.0" prefWidth="139.0" style="-fx-background-color: #130f40;">
+         <children>
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="6.0" layoutY="-44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asserts/menu.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#b0c1d0" layoutX="68.0" layoutY="68.0" radius="62.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a5b1bc" layoutX="71.0" layoutY="194.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+            <JFXButton layoutX="24.0" layoutY="263.0" onAction="#BackOnAction" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: C4C4C4;" text="BACK">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="10.0" layoutY="54.0" onAction="#ReserveARoomOnAction" text="Reserve a Room">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="4.0" layoutY="185.0" onAction="#MarkMaintenanceOnAction" text="Mark Room In Maintenance ">
+               <font>
+                  <Font name="System Bold" size="9.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="85.0" layoutY="5.0" opacity="0.78" text="      search" />
+      <Label layoutX="198.0" layoutY="110.0" text="THE BLUE OCEAN HOTEL " textFill="#2320e4">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="362.0" text="www.blueocean.com" />
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="85.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/magnifying-glass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="284.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/account.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="402.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-username-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="557.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/setting.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="318.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reseptionist" />
+      <Text layoutX="435.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Achini Thanuja" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdfeff" height="58.0" layoutX="234.0" layoutY="313.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8fcff" height="58.0" layoutX="399.0" layoutY="313.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <ImageView fitHeight="39.0" fitWidth="35.0" layoutX="245.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-bedroom-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="35.0" layoutX="410.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/account.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

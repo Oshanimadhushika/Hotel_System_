@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LoginForm2Context" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginForm2Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/beautiful-seashore-with-sun-reflected-min-min.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="115.0" layoutY="56.0" startX="-100.0" stroke="#c60f0f" />
+      <Label layoutX="23.0" layoutY="21.0" text="THE BLUE OCEAN" textFill="#11165b">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="32.0" layoutX="40.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-username-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="32.0" layoutX="40.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-lock-30.png" />
+         </image></ImageView>
+      <Label layoutX="94.0" layoutY="102.0" text="User Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="179.0" text="Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="twtPassword" layoutX="90.0" layoutY="215.0" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: C4C4C4;" />
+      <TextField fx:id="txtUserName" layoutX="90.0" layoutY="127.0" prefHeight="25.0" prefWidth="166.0" style="-fx-background-color: C4C4C4;" />
+      <JFXButton layoutX="74.0" layoutY="264.0" onAction="#btnAdminLoginOnAction" style="-fx-background-color: CBB360;" text="Admin Login">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="292.0" layoutY="271.0" onAction="#btnCancelOnAction" prefHeight="38.0" prefWidth="107.0" style="-fx-background-color: CBB360;" text="Cancel">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="26.0" fitWidth="32.0" layoutX="40.0" layoutY="328.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/icons8-bedroom-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="40.0" layoutX="94.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-checked-radio-button-24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="32.0" layoutX="144.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-dining-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="200.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-outdoor-swimming-pool-30.png" />
+         </image></ImageView>
+      <Label layoutX="491.0" layoutY="369.0" text="www.blueocean.com" />
+   </children>
+</AnchorPane>

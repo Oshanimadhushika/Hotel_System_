@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ReportContext" prefHeight="461.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardReportFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="38.0" layoutX="-4.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" width="779.0" />
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="2.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/setting.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="386.0" fitWidth="779.0" layoutX="2.0" layoutY="74.0" opacity="0.8" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/creative-composition-world-book-day.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="452.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/account.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="485.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" />
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="543.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-username-50.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="587.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oshani Madhushika" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="742.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/menu.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="100.0" layoutY="38.0" prefHeight="25.0" prefWidth="468.0" />
+      <Text layoutX="134.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="search" />
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="110.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/magnifying-glass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="6.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/left-arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="37.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/forward.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="67.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/refresh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="224.0" fitWidth="368.0" layoutX="27.0" layoutY="160.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/top-view-statistics-presentation-with-chart.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="232.0" fitWidth="368.0" layoutX="403.0" layoutY="156.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/businessman-touching-tip-bar-chart.jpg" />
+         </image></ImageView>
+      <TextField layoutX="100.0" layoutY="120.0" prefHeight="30.0" prefWidth="147.0" style="-fx-background-color: #f6e58d;" text="View Monthly">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <TextField layoutX="482.0" layoutY="120.0" prefHeight="30.0" prefWidth="147.0" style="-fx-background-color: #f6e58d;" text="View Anually">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="227.0" layoutY="84.0" prefHeight="31.0" prefWidth="357.0" style="-fx-background-color: #be2edd;" text="        MONTHLY REPORT/ ANUAL REPOART">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <JFXButton layoutX="20.0" layoutY="410.0" onAction="#BackOnAction" style="-fx-background-color: #6ab04c;" text="BACK">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

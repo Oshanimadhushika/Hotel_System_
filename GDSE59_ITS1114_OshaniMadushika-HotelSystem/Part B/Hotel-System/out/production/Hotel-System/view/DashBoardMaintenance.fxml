@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="MaintenanceContext" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardMaintenanceController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5e83a4" height="37.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/setting.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="565.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="406.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/account.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="442.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reseptionist" />
+      <TextField layoutX="65.0" layoutY="6.0" prefHeight="25.0" prefWidth="173.0" text="     search" />
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="71.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/magnifying-glass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="333.0" fitWidth="600.0" layoutX="-2.0" layoutY="61.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/interior-modern-comfortable-hotel-room.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="70.0" text="MAINTENANCE OF ROOMS">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="526.0" layoutY="348.0" onAction="#BackOnAction" style="-fx-background-color: #6ab04c;" text="BACK">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="28.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Room">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtTotalRoom" layoutX="142.0" layoutY="126.0" />
+      <Text layoutX="27.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Booking Room">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtBooking" layoutX="164.0" layoutY="176.0" />
+      <Text layoutX="27.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Room">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtAvailable" layoutX="177.0" layoutY="223.0" />
+      <Text layoutX="27.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Have to Maintenance">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtHaveMaintenance" layoutX="252.0" layoutY="265.0" />
+      <Text layoutX="27.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Already done">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtAlreadyDone" layoutX="198.0" layoutY="306.0" />
+   </children>
+</AnchorPane>

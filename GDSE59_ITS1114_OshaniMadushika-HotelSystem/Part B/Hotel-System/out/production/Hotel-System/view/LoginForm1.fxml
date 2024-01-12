@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LoginForm1Context" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginForm1Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/view-pool-hotel-ocean-water-min.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="59.0" text="WELCOME" textFill="#1a31e1">
+         <font>
+            <Font name="System Bold" size="49.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="290.0" text="-COME-RELAX-ENJOY-" textFill="#364035">
+         <font>
+            <Font name="Constantia Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="387.0" layoutY="44.0" text="THE BLUE OCEAN" textFill="#179426">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="487.0" layoutY="86.0" startX="-105.0" stroke="#f21515" />
+      <Separator layoutX="324.0" layoutY="19.0" orientation="VERTICAL" prefHeight="361.0" prefWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#939ca4" height="215.0" layoutX="353.0" layoutY="123.0" opacity="0.26" stroke="BLACK" strokeType="INSIDE" width="222.0" />
+      <TextField layoutX="439.0" layoutY="368.0" opacity="0.55" text="wwwww.blueocean.com" />
+      <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="21.0" layoutY="360.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/icons8-bedroom-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="38.0" layoutX="81.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-checked-radio-button-24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="44.0" layoutX="139.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-dining-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="44.0" layoutX="196.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons8-outdoor-swimming-pool-30.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="395.0" layoutY="148.0" onAction="#AdminLoginOnAction" style="-fx-background-color: D6BF6E;" text="Admin Login">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="389.0" layoutY="262.0" onAction="#ReseptionistLoginOnAction" style="-fx-background-color: D6BF6E;" text="Reseptionist Login">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
